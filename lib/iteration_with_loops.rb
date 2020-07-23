@@ -3,7 +3,7 @@ def find_min_in_nested_arrays(src)
   # Produce a new Array that contains the smallest number of each of the nested arrays
   final = []
   src.each do |arr|
-    num_check = 100
+    num_check = arr[0][0]
     arr.each do |num|
       if num < num_check
         num_check = num
