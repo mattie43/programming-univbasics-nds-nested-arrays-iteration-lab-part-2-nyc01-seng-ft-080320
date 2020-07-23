@@ -9,7 +9,7 @@ def find_min_in_nested_arrays(src)
         num_check = num
       end
     end
-    final << num
+    final << num_check
   end
   final
 end
