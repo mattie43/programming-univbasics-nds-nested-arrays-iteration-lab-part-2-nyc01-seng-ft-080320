@@ -5,7 +5,7 @@ def find_min_in_nested_arrays(src)
   src.each do |arr|
     num_check = 100
     arr.each do |num|
-      if num > num_check
+      if num < num_check
         num_check = num
       end
     end
